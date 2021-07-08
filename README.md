@@ -1,8 +1,9 @@
 # git-batch ![](https://img.shields.io/npm/v/git-batch.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen)
 
+A batch Git tools
+
 English | [简体中文](./doc/cndoc.md)
 
-A batch Git tools
 
 ## install
 

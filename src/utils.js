@@ -9,7 +9,6 @@ function childProcessExec () {
    */
   function cycleCmdTaskQueue (cmd, fn) {
     childProcessLimit--
-    console.log(childProcessLimit)
     child_process.exec(cmd, (error, stdout, stderr) => {
       childProcessLimit++
       if (error) {

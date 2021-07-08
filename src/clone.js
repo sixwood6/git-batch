@@ -83,7 +83,7 @@ function clone(filepath) {
         })
         if (dressUrlIndex) {
           data.forEach(row => {
-            let url = row[9]
+            let url = row[dressUrlIndex]
             if (url) {
               url = url.match(/\.git$/) ? url : url + '.git'
               urls.push(url)
@@ -93,6 +93,7 @@ function clone(filepath) {
           throw new Error('请在表格第一行表头中设置 仓库地址 或者 repositoryUrl 列，并在表格对应列中填写仓库地址')
         }
       })
+    console.log('urls: ', urls)
     return urls
   }
 }
