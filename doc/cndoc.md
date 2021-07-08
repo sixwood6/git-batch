@@ -1,4 +1,4 @@
-# git-batch
+# git-batch ![](https://img.shields.io/npm/v/git-batch.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen)
 
 [English](../README.md) | 简体中文
 
@@ -59,6 +59,6 @@ git-batch clone xxx.xlsx
 1. 为第一行设置表头
 2. 在任意列设置 仓库地址表头（字符串中需要包含`仓库地址` 或者 `repositoryUrl`）字符串用于标记仓库地址列的位置
 
-![xlsx config img](./xlsxconfig.png)
+![xlsx config img](./doc/xlsxconfig.png)
 
 > 若配置的项目地址中不以 `.git`结尾会自动补全
