@@ -57,6 +57,6 @@ git-batch clone xxx.xlsx
 1. Set the header for the first row.
 2. Set repository url in any column, the column header string must contain `repositoryUrl` or `仓库地址`.
 
-![xlsx config img](./xlsxconfig.png)
+![xlsx config img](https://github.com/siegaii/git-batch/blob/main/doc/xlsxconfig.png?raw=true)
 
 > If the configured project address does not end in `.git`, the program will automatically add.git
