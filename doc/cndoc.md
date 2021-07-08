@@ -56,9 +56,9 @@ git-batch clone xxx.json
 ```shell
 git-batch clone xxx.xlsx
 ```
-1. 第一行为表头设置
-2. 需要在任意列设置 仓库地址表头（字符串中需要包含`仓库地址` 或者 `repositoryUrl`）字符串用于标记仓库地址列的位置
+1. 为第一行设置表头
+2. 在任意列设置 仓库地址表头（字符串中需要包含`仓库地址` 或者 `repositoryUrl`）字符串用于标记仓库地址列的位置
 
 ![xlsx config img](./xlsxconfig.png)
 
-> 若配置的项目地址中不以 `.git`结尾会自动补全，不会影响仓库的拉取
+> 若配置的项目地址中不以 `.git`结尾会自动补全
