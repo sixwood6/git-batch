@@ -21,15 +21,14 @@ function clone(filepath) {
     // if extname .xlsx
     cloneUrls = getRepositoryUrlByXlsx()
   } else {
-    throw new Error('Config file type need .json or xlsx')
+    throw new Error('Config file type need .json or .xlsx')
   }
 
-  console.log('cloneUrls: ', cloneUrls)
-  // cloneUrls.forEach(url => {
-  //   childProcess(`git clone ${url}`, () => {
-  //     console.log('repository' + url + "clone complete")
-  //   })
-  // })
+  cloneUrls.forEach(url => {
+    childProcess(`git clone ${url}`, () => {
+      console.log('repository' + url + "clone complete")
+    })
+  })
 
   /**
    * parse json config
